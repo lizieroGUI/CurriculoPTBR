@@ -1,0 +1,98 @@
+main{
+ background-color: #f8f9fa;
+ border-radius: 10px;
+}
+
+html{
+    margin: 50px;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+   list-style: none;
+}
+
+#linklinkedin{
+    text-decoration: none;
+}
+
+#informações ul:hover{
+    background-color: #dee2e6;
+    transition: 0.25s;
+    border-radius: 10px;
+}
+
+#trab:hover{
+    background-color: #dee2e6;
+    transition: 0.25s;
+    border-radius: 10px;
+
+}
+
+header{
+    border-bottom: 2px black solid;
+    margin: 0 25px;
+    border-radius: 10px;
+}
+
+section{
+    border-bottom: 2px black solid;
+    margin: 0 50px;
+    border-radius: 10px;
+}
+
+@media(min-width:992px){
+    .wh:hover{
+        transition: 0.25s;
+        margin: 0 0;
+        }
+    header{
+        margin: 0 50px;
+    }
+    section{
+        margin: 0 100px;
+    }
+    #informações{
+        height: 208px;
+    }
+    #objetivo{
+        height: 168.3px;
+    }
+    #formação{
+        height: 158.15px;
+    }
+    #exp{
+        height: 340.05px;
+    }
+    #habilidades{
+        height: 302.15px;
+    }
+}
+
+@media(min-width:1222px){
+    #informações{
+        height: 160px;
+    }
+    #objetivo{
+        height: 142.8px;
+    }
+    #formação{
+        height: 160.4px;
+    }
+    #exp{
+        height: 380px;
+    }
+    #habilidades{
+        height: 304.4px;
+    }
+}
+
+@media(min-width:600px){
+    .wh:hover{
+        background-color: #e9ecef;
+    }
+    
+}
